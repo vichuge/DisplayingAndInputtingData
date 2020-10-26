@@ -1,0 +1,49 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:#ECEEF1;
+}
+/* NAV */
+nav{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding: 10px 50px;
+}
+nav > div {
+    display:flex;
+    flex-direction:column;
+}
+nav div button {
+    display: flex;
+    padding: 9px 20px;
+    border-radius: 5px;
+    background-color: #0077C5;
+    color: white;
+    border: 1px solid black;
+    align-items:baseline;
+    margin-left: 15px;
+}
+nav div button i {
+    margin-right: 10px;
+}
+nav div span{
+    font-size:12px;
+    margin:0 5px 5px  0;
+    color:#717171
+}
+nav div a {
+    color:#1689D0;
+    font-size:12px;
+}
+
+/* MAIN */
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
