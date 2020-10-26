@@ -69,45 +69,80 @@ main .links{
     margin-right: 5px;
 }
 
-main .login{
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ccc;
-    background-color: white;
-    color: #505050;
-    padding: 30px 10px;
-}
-main .login .title h3{
-    font-weight: 500;
-    font-size: 24px;
-    margin: 0 0 4px 0;
-}
-main .paragraph {
-    text-align:center;
-}
-main .paragraph p{
-    font-size: 14px;
-}
-main .paragraph span{
-    font-size: 12px;
-    color:#1689D0;
-}
 
 /* FORM */
-main .login form{
-    margin: 25px 25px 35px 25px;
-    font-size: 14px;
+.form-container{
+    border: 1px solid #ccc;
+     background-color: white;
+     margin-top: 15px;
+    border-radius:1px;
+ }
+ main .login{
+     padding: 30px 30px 0 30px;
+     display: flex;
+     flex-direction: column;
+     color: #505050;
+ }
+ main .login .title h3{
+     font-weight: 500;
+     font-size: 24px;
+     margin: 0 0 4px 0;
+ }
+ main .paragraph {
+     text-align:center;
+ }
+ main .paragraph p{
+     font-size: 14px;
+ }
+ main .paragraph span{
+     font-size: 12px;
+     color:#1689D0;
+ }
+
+main .login .form{
+    margin: 25px 0 35px 0;
+    font-size: 15px;
 }
 
-/*main .login form > label{
-    margin-bottom: 10px;
-}*/
-
-main .login form input{
-    padding: 7px;
+.form fieldset{
+    margin-bottom:35px;
+}
+.form fieldset label span {
+    font-size:10px;
+}
+main .login .form input{
+    padding: 9px;
     width: 100%;
     border: 1px solid  #ccc;
     border-radius: 3px;
     margin-top: 10px;
+}
+.form button{
+    padding:13px;
+    width: 100%;
+    border: 1px solid  #0878C7;
+    border-radius: 3px;
+    background-color: #0878C7;
+    color:white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+    font-size:16px;
+}
+.form button i {
+    margin-right:10px;
+}
+.terms{
+    font-style: italic;
+    font-size:13px;
+    color: #757575;
+    text-align:center
+}
+.terms span, .footer-form span{
+    color: #1689D0;
+}
+.footer-form{
+    font-size:10px;
+    color: #757575;
+    text-align:center;
+    background-color:#ECEEF1;
+    padding: 25px 0;
 }
