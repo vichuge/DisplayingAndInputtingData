@@ -1,3 +1,8 @@
+/* PRIMARY */
+/* NAV */
+/* MAIN */
+
+/* PRIMARY */
 *{
     border:0;
     padding:0;
@@ -8,6 +13,7 @@ body{
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color:#ECEEF1;
 }
+
 /* NAV */
 nav{
     display:flex;
@@ -44,6 +50,33 @@ nav div a {
 
 /* MAIN */
 main{
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 380px;
+    margin: 25px auto;
+}
+main .title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+main .links{
+    display:flex;
+    justify-content: center;
+}
+
+.links > img{
+    margin-right: 5px;
+}
+
+main .login{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+main .login .title h3{
+    font-weight: 500;
+    font-size: 25px;
 }
