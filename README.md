@@ -7,7 +7,7 @@
 
 # Screenshot
 
-![screenshot](/src/Screenshot.png)
+![screenshot](/src/img/screenshot.png)
 
 ## Developers
 
