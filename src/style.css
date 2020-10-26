@@ -222,3 +222,18 @@ footer .foot-bar p a{
 footer .foot-bar p a:hover{
     text-decoration: underline;
 }
+
+
+/* HOVERING BUTTON */
+
+.privacy{
+    background-color: #6b6c72;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    right: 60px;
+    border-radius: 3px 3px 0 0;
+    cursor: pointer;
+}
