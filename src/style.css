@@ -2,31 +2,41 @@
 /* NAV */
 /* MAIN */
 /* FORM */
+/* FOOTER */
 
 /* PRIMARY */
-*{
-    border:0;
-    padding:0;
-    margin:0;
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color:#ECEEF1;
+    background-color: #ECEEF1;
+}
+
+a{
+    text-decoration: none;
+    color: #1689D0;
+    cursor: pointer;
 }
 
 /* NAV */
-nav{
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     padding: 10px 25px;
 }
-nav > div {
-    display:flex;
-    flex-direction:column;
+
+nav>div {
+    display: flex;
+    flex-direction: column;
 }
-nav  button {
+
+nav button {
     display: flex;
     padding: 9px 20px;
     border-radius: 4px;
@@ -35,114 +45,180 @@ nav  button {
     border: 1px solid black;
     align-items: baseline;
     margin-left: 10px;
+    cursor: pointer;
+    
 }
-nav  button i {
+
+nav button:checked{
+    border: 1px solid black;
+}
+
+nav button i {
     margin-right: 10px;
 }
-nav div span{
-    font-size:12px;
-    margin:0 0 3px 3px;
-    color:#717171
+
+nav div span {
+    font-size: 12px;
+    margin: 0 0 3px 3px;
+    color: #717171
 }
+
 nav div a {
-    color:#1689D0;
-    font-size:12px;
+    color: #1689D0;
+    font-size: 12px;
 }
 
 /* MAIN */
-main{
+main {
     max-width: 380px;
     margin: 25px auto;
 }
-main .title{
+
+main .title {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
 }
 
-main .links{
-    display:flex;
+main .links {
+    display: flex;
     justify-content: center;
 }
 
-.links > img{
+.links>img {
     margin-right: 5px;
 }
 
 
 /* FORM */
-.form-container{
+.form-container {
     border: 1px solid #ccc;
-     background-color: white;
-     margin-top: 15px;
-    border-radius:1px;
- }
- main .login{
-     padding: 30px 30px 0 30px;
-     display: flex;
-     flex-direction: column;
-     color: #505050;
- }
- main .login .title h3{
-     font-weight: 500;
-     font-size: 24px;
-     margin: 0 0 4px 0;
- }
- main .paragraph {
-     text-align:center;
- }
- main .paragraph p{
-     font-size: 14px;
- }
- main .paragraph span{
-     font-size: 12px;
-     color:#1689D0;
- }
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 1px;
+}
 
-main .login .form{
+main .login {
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    color: #505050;
+}
+
+main .login .title h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 0 4px 0;
+}
+
+main .paragraph {
+    text-align: center;
+}
+
+main .paragraph p {
+    font-size: 14px;
+}
+
+main .paragraph span a {
+    cursor: pointer;
+}
+
+main .paragraph span {
+    font-size: 12px;
+    color: #1689D0;
+}
+
+main .login .form {
     margin: 25px 0 35px 0;
     font-size: 15px;
 }
 
-.form fieldset{
-    margin-bottom:35px;
+.form fieldset {
+    margin-bottom: 35px;
 }
+
 .form fieldset label span {
-    font-size:10px;
+    font-size: 10px;
 }
-main .login .form input{
+
+main .login .form input {
     padding: 9px;
     width: 100%;
-    border: 1px solid  #ccc;
+    border: 1px solid #ccc;
     border-radius: 3px;
     margin-top: 10px;
 }
-.form button{
-    padding:13px;
+
+.form button {
+    padding: 13px;
     width: 100%;
-    border: 1px solid  #0878C7;
+    border: 1px solid #0878C7;
     border-radius: 3px;
     background-color: #0878C7;
-    color:white;
+    color: white;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
-    font-size:16px;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+.form button:focus{
+    border: 1px solid black;
+}
+
 .form button i {
-    margin-right:10px;
+    margin-right: 10px;
 }
-.terms{
+
+.terms {
     font-style: italic;
-    font-size:13px;
+    font-size: 12px;
     color: #757575;
-    text-align:center
+    text-align: center;
+    padding-bottom: 30px;
+    line-height: 175%;
 }
-.terms span, .footer-form span{
+
+.terms span,
+.footer-form span {
     color: #1689D0;
 }
-.footer-form{
-    font-size:10px;
+
+.footer-form {
+    font-size: 10px;
     color: #757575;
-    text-align:center;
-    background-color:#ECEEF1;
+    text-align: center;
+    background-color: #ECEEF1;
     padding: 25px 0;
+}
+
+/* FOOTER */
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    color: #54545A;
+    line-height:150%;
+}
+
+.foot-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.foot-bar>p {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.foot-terms{
+    text-align:center;
+}
+
+footer .foot-bar p a{
+    color: #54545A;
+}
+
+footer .foot-bar p a:hover{
+    text-decoration: underline;
 }
