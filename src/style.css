@@ -19,28 +19,28 @@ nav{
     display:flex;
     justify-content:flex-end;
     align-items:center;
-    padding: 10px 50px;
+    padding: 10px 25px;
 }
 nav > div {
     display:flex;
     flex-direction:column;
 }
-nav div button {
+nav  button {
     display: flex;
     padding: 9px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #0077C5;
     color: white;
     border: 1px solid black;
-    align-items:baseline;
-    margin-left: 15px;
+    align-items: baseline;
+    margin-left: 10px;
 }
-nav div button i {
+nav  button i {
     margin-right: 10px;
 }
 nav div span{
     font-size:12px;
-    margin:0 5px 5px  0;
+    margin:0 0 3px 3px;
     color:#717171
 }
 nav div a {
@@ -74,9 +74,21 @@ main .login{
     flex-direction: column;
     border: 1px solid #ccc;
     background-color: white;
+    color: #505050;
+    padding: 30px 10px;
 }
-
 main .login .title h3{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 24px;
+    margin: 0 0 4px 0;
+}
+main .paragraph {
+    text-align:center;
+}
+main .paragraph p{
+    font-size: 14px;
+}
+main .paragraph span{
+    font-size: 12px;
+    color:#1689D0;
 }
