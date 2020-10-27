@@ -1,19 +1,19 @@
 /* PRIMARY */
 * {
-    border: 0;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #ECEEF1;
+    background-color: #eceef1;
 }
 
 a {
     text-decoration: none;
-    color: #1689D0;
+    color: #1689d0;
     cursor: pointer;
 }
 
