@@ -107,11 +107,11 @@ main .paragraph {
   text-align: center;
 }
 
-main .paragraph p {
+.paragraph p {
   font-size: 14px;
 }
 
-main .paragraph > a {
+.paragraph a {
   cursor: pointer;
   font-size: 12px;
   color: #1689d0;
