@@ -67,13 +67,13 @@ main {
   margin: 25px auto;
 }
 
-main .title {
+.title {
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
 }
 
-main .links {
+.links {
   display: flex;
   justify-content: center;
 }
@@ -90,20 +90,20 @@ main .links {
   border-radius: 1px;
 }
 
-main .login {
+.login {
   padding: 30px 30px 0 30px;
   display: flex;
   flex-direction: column;
   color: #505050;
 }
 
-main .login .title h3 {
+.title h3 {
   font-weight: 500;
   font-size: 24px;
   margin: 0 0 4px 0;
 }
 
-main .paragraph {
+.paragraph {
   text-align: center;
 }
 
@@ -117,7 +117,7 @@ main .paragraph {
   color: #1689d0;
 }
 
-main .login .form {
+.form {
   margin: 25px 0 35px 0;
   font-size: 15px;
 }
@@ -130,7 +130,7 @@ main .login .form {
   font-size: 10px;
 }
 
-main .login .form input {
+.form input {
   padding: 9px;
   width: 100%;
   border: 1px solid #ccc;
@@ -204,11 +204,11 @@ footer {
   text-align: center;
 }
 
-footer .foot-bar  a {
+.foot-bar a {
   color: #54545a;
 }
 
-footer .foot-bar a:hover {
+.foot-bar a:hover {
   text-decoration: underline;
 }
 
