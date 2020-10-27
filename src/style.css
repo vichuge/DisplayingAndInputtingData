@@ -1,10 +1,4 @@
 /* PRIMARY */
-/* NAV */
-/* MAIN */
-/* FORM */
-/* FOOTER */
-
-/* PRIMARY */
 * {
     border: 0;
     padding: 0;
@@ -17,7 +11,7 @@ body {
     background-color: #ECEEF1;
 }
 
-a{
+a {
     text-decoration: none;
     color: #1689D0;
     cursor: pointer;
@@ -46,10 +40,10 @@ nav button {
     align-items: baseline;
     margin-left: 10px;
     cursor: pointer;
-    
+
 }
 
-nav button:checked{
+nav button:checked {
     border: 1px solid black;
 }
 
@@ -161,7 +155,7 @@ main .login .form input {
     cursor: pointer;
 }
 
-.form button:focus{
+.form button:focus {
     border: 1px solid black;
 }
 
@@ -192,13 +186,13 @@ main .login .form input {
 }
 
 /* FOOTER */
-footer{
-    display:flex;
+footer {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 12px;
     color: #54545A;
-    line-height:150%;
+    line-height: 150%;
 }
 
 .foot-bar {
@@ -211,22 +205,22 @@ footer{
     text-align: center;
 }
 
-.foot-terms{
-    text-align:center;
+.foot-terms {
+    text-align: center;
 }
 
-footer .foot-bar p a{
+footer .foot-bar p a {
     color: #54545A;
 }
 
-footer .foot-bar p a:hover{
+footer .foot-bar p a:hover {
     text-decoration: underline;
 }
 
 
 /* HOVERING BUTTON */
 
-.privacy{
+.privacy {
     background-color: #6b6c72;
     padding: 15px;
     color: white;

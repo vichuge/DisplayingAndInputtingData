@@ -1,9 +1,8 @@
 **![](https://img.shields.io/badge/-microverse-yellow)**
 
-# Displaying And Inputting Data (Login page)
+# Displaying And Inputting Data (Signup page)
 
 > This is a collaborative second project in the HTML5&CSS3 Microverse curriculum. The name of the project is HTML FORMS and It was about displaying and inputting data using different types of forms.
-
 
 # Screenshot
 
