@@ -112,11 +112,8 @@ main .paragraph p {
   font-size: 14px;
 }
 
-main .paragraph span a {
-  cursor: pointer;
-}
-
-main .paragraph span {
+main .paragraph a {
+    cursor: pointer;
   font-size: 12px;
   color: #1689d0;
 }
@@ -171,8 +168,8 @@ main .login .form input {
   line-height: 175%;
 }
 
-.terms span,
-.footer-form span {
+.terms a,
+.footer-form a {
   color: #1689d0;
 }
 
@@ -199,7 +196,7 @@ footer {
   justify-content: center;
 }
 
-.foot-bar > p {
+.foot-bar > a {
   margin-right: 10px;
   text-align: center;
 }
@@ -208,11 +205,11 @@ footer {
   text-align: center;
 }
 
-footer .foot-bar p a {
+footer .foot-bar  a {
   color: #54545A;
 }
 
-footer .foot-bar p a:hover {
+footer .foot-bar a:hover {
   text-decoration: underline;
 }
 
